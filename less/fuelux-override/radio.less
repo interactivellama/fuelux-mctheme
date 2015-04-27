@@ -19,6 +19,7 @@
 		-webkit-appearance: inherit;
 		border: 0px solid transparent;
 		border-radius: 0;
+		box-shadow: none;
 		content: "" !important;
 		padding: unit((@radio-button-width-value / 2), px);
 		top: 2px;
@@ -39,7 +40,7 @@
 
 
 
-.radio-custom {
+.fuelux .radio-custom {
 	line-height: 20px;
 
 	padding-left: @radio-button-padding-left;
@@ -99,19 +100,30 @@
 		}
 	}
 
-	&.radio-inline {
+}
 
-		@form-elements-padding: unit( ((@radio-button-width-value + ((@radio-button-width-value / 3) * 3))), px );
+.fuelux label.radio-custom.radio-inline, .radio-custom.radio-inline {
 
+	@form-elements-padding: unit( ((@radio-button-width-value + ((@radio-button-width-value / 3) * 3))), px );
+
+	padding-left: @form-elements-padding;
+
+
+	&.highlight {
+		@form-elements-padding: unit( ((@radio-button-width-value + ((@radio-button-width-value / 3) * 4))), px );
 		padding-left: @form-elements-padding;
-
-
-		&.highlight {
-			@form-elements-padding: unit( ((@radio-button-width-value + ((@radio-button-width-value / 3) * 4))), px );
-			padding-left: @form-elements-padding;
-			&:before {
-				top: 6px;
-			}
+		&:before {
+			top: 6px;
 		}
 	}
+}
+
+// remove box shadow
+.fuelux .radio input[type="radio"]:hover:not(.sr-only) ~ label::before, 
+.fuelux .radio-inline input[type="radio"]:hover:not(.sr-only) ~ label::before, 
+.fuelux .radio input[type="radio"]:active:not(.sr-only) ~ label::before, 
+.fuelux .radio-inline input[type="radio"]:active:not(.sr-only) ~ label::before, 
+.fuelux .radio input[type="radio"]:focus:not(.sr-only) ~ label::before, 
+.fuelux .radio-inline input[type="radio"]:focus:not(.sr-only) ~ label::before { 
+	box-shadow: none;
 }

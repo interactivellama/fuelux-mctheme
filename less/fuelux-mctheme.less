@@ -1,16 +1,15 @@
 // Unique to fuelux-mctheme 
-@import "variables.less";
-@import "mixins.less";
-@import "colors.less";
-@import "icons.less";
+@import (reference) "variables.less";
+@import (reference) "mixins.less";
+@import (reference) "colors.less";
+
 @import "utility.less";
 @import "help.less";
+@import "icons.less";
 
 
-// Bootstrap override
+
 @import "bootstrap-override.less";
 
 // Fuel UX override
-.fuelux {
-	@import "fuelux-override-no-namespace.less";
-}
+@import "fuelux-override.less";

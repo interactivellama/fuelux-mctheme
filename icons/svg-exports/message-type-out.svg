@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px"
+	 height="20px" viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<g id="message-type-out">
+	<g>
+		<rect id="le_wrappier_51_" style="fill:none;" width="20" height="20"/>
+		<g>
+			<path style="fill:#FFFFFF;" d="M15.295,1c0.495,0,0.898,0.426,0.898,0.95v12.182c0,0.522-0.403,0.947-0.898,0.947h-6.77
+				c-0.23,0-0.454,0.08-0.633,0.226l-3.164,2.586v-1.812c0-0.553-0.448-1-1-1h-1.83C1.403,15.079,1,14.654,1,14.132V1.95
+				C1,1.426,1.403,1,1.898,1H15.295 M15.295,0H1.898C0.852,0,0,0.875,0,1.95v12.182c0,1.077,0.852,1.947,1.898,1.947h1.83V20
+				l4.797-3.921h6.77c1.047,0,1.898-0.87,1.898-1.947V1.95C17.193,0.875,16.342,0,15.295,0L15.295,0z"/>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="8.5962" y1="1" x2="8.5962" y2="17.8911">
+				<stop  offset="0" style="stop-color:#F1F8FF"/>
+				<stop  offset="1" style="stop-color:#DDEBF7"/>
+			</linearGradient>
+			<path style="fill:url(#SVGID_1_);" d="M4.729,15.079h-2.83C1.403,15.079,1,14.654,1,14.132V1.95C1,1.426,1.403,1,1.898,1h13.396
+				c0.495,0,0.898,0.426,0.898,0.95v12.182c0,0.522-0.403,0.947-0.898,0.947H8.168l-3.44,2.812V15.079z"/>
+			<path style="fill:#AAAAAA;" d="M15.295,0.5c0.771,0,1.398,0.65,1.398,1.45v12.182c0,0.798-0.627,1.447-1.398,1.447h-6.77H8.347
+				l-0.138,0.113l-3.98,3.253v-2.866v-0.5h-0.5h-1.83c-0.771,0-1.398-0.649-1.398-1.447V1.95c0-0.8,0.627-1.45,1.398-1.45H15.295
+				 M15.295,0H1.898C0.852,0,0,0.875,0,1.95v12.182c0,1.077,0.852,1.947,1.898,1.947h1.83V20l4.797-3.921h6.77
+				c1.047,0,1.898-0.87,1.898-1.947V1.95C17.193,0.875,16.342,0,15.295,0L15.295,0z"/>
+		</g>
+		<g>
+			
+				<polygon style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
+				19,8.528 13.601,3.987 13.601,6.857 7.143,6.857 7.143,10.199 13.601,10.199 13.601,13.068 			"/>
+			<polygon style="fill:#378DD7;" points="19,8.528 13.601,3.987 13.601,6.857 7.143,6.857 7.143,10.199 13.601,10.199 
+				13.601,13.068 			"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_1">
+</g>
+</svg>

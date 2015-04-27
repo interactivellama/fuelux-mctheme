@@ -1,19 +1,12 @@
-@import "icons/icons-svg.less";
-
-
-.mcthemeicon-breadcrumb {
-	width: 10px;
-	height: 12px;
-	display: inline-block;
-	.sprite(-210px, 0);
+.btn-lg .fuelux-icon {
+	width: 20px;
+	height: 20px;
 }
 
-@media(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-	.mcthemeicon-breadcrumb {
-		.sprite2x();
-	}
+.btn-sm .fuelux-icon {
+	width: 13px;
+	height: 13px;
 }
-
 
 // The columns configure icon has a little gear sticking out of it, making it need to be bigger than the other column type icons in a repeater toolbar, so that the columns box itself appears to be the same size. The margin-bottom is so that it aligns correctly, and it's container button is the same size as the rest of the buttons in the toolbar.
 .fuelux-icon.fuelux-icon-gridview-columns-configure {
@@ -23,3 +16,32 @@
 }
 
 
+
+.breadcrumb {
+	padding: 8px 15px;
+	margin-bottom: 20px;
+	list-style: none;
+	background-color: transparent;
+	border-radius: 0;
+
+	> li + li:before, > li:first-child:before {
+		.fuelux-icon;
+		.fuelux-icon-breadcrumb;
+		content: '';
+		margin: 0px 2px -3px 0px;
+		width: 5px;
+		background-size: 25px 19px;
+	}
+
+	> li:first-child:before {
+		margin: 0px 7px -7px 0px;
+		background-size: 22px 22px;
+		height: 22px;
+		width: 22px;
+	}
+
+	.active {
+		color: #000000;
+	}
+
+}

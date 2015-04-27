@@ -1,4 +1,4 @@
-.datepicker {
+.fuelux .datepicker {
 	background: #fff;
 
 	&:hover {
@@ -110,47 +110,54 @@
 					&.current-day {
 						button {
 							background: #E6E6E6;
+							// border: 1px solid #999;
+						}
+
+						span {
+							border-radius: 0px;
 							border: 1px solid #999;
+						}
+
+						&.selected, &.selected:hover {
+							button {
+								background: @blue-slate;
+								border: none;
+								-webkit-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.1) inset;
+								box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.1) inset;
+							}
+						}
+
+						&.selected:hover {
+							button {
+								background: @blue-slate;
+							}
 						}
 					}
 
-					&.past {
-						button {
+					&.restricted {
+						b {
+							line-height: 15px;
+
+							&:before {
+								display:none;
+							}
+						}
+						b, b:hover, button, button:hover {
 							background: #fff;
 							border: 1px solid #ddd;
 							color: #ddd;
 						}
 					}
 
-					&.restricted {
-						button, button:hover {
-							background: #f3f3f3;
-							border: 1px solid #e4e4e4;
-							color: #bbb;
-
-							&:before {
-								border-top: 1px solid #a94442;
-								bottom: 0;
-								content: " ";
-								display: block;
-								left: 5px;
-								position: absolute;
-								right: 5px;
-								top: 50%;
-							}
-						}
-
-						b {
-							line-height: 15px;
-						}
-					}
-
 					&.selected {
 						button, button:hover {
-							background: @blue-slate;
+							background: @blue-sky;
 							border: none;
 							-webkit-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.1) inset;
 							box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.1) inset;
+						}
+						button:hover {
+							background: @blue-slate;
 						}
 
 						span, span:hover {

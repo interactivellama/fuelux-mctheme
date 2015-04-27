@@ -18,14 +18,27 @@
 		-webkit-appearance: inherit;
 		border: 0px solid transparent;
 		border-radius: 0;
+		box-shadow: none;
 		content: "" !important;
 		padding: 0;
+		outline: 0;
 	}
 }
 
-.checkbox-custom {
-	line-height: 20px;
 
+.fuelux .checkbox {
+
+	&.highlight {
+		& label.checkbox-custom {
+			padding: 3px 4px 5px 24px;
+		}
+	}
+}
+
+
+
+.fuelux .checkbox-custom {
+	line-height: 20px;
 	padding-left: @checkbox-padding-left;
 
 	.checkbox-before;
@@ -47,6 +60,7 @@
 
 	&:active, &:focus {
 		.checkbox-before;
+
 		&:before {
 			.fuelux-icon-checkbox-active;
 			.checkbox-element-sizes;
@@ -84,8 +98,15 @@
 	}
 
 	&.checkbox-inline {
+		&.highlight {
+			left: 0px;
+		}
 		input {
 			position: absolute;
 		}
 	}
+}
+
+.fuelux label.checkbox-custom {
+  margin-bottom: 5px;
 }
